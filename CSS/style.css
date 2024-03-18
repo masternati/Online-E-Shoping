@@ -1,0 +1,24 @@
+.gradientColor1{
+    background-color: #0061ff;
+}
+.cn-hover:hover{
+    background-color: #0061ff;
+    color: white;
+}
+.margin-0{
+    margin: 0;
+}
+.top{
+    top: 280px;
+    height: 120px;
+}
+.transition {
+    position: relative;
+    transition: transform 2s ease-in-out left;
+}
+.screen-full{
+    height: 100vh;
+}
+.screen-half{
+    height: 50vh;
+}
