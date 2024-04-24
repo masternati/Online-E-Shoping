@@ -14,34 +14,57 @@
     </h1>
 
     <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-around">
-            <h2 class="px-4 py-2 rounded fs-1 fw-bold cn-hover">E-Shop</h2>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-around">
+        <h2 class="px-4 py-2 rounded fs-1 fw-bold cn-hover">E-Shop</h2>
 
-            <div class="d-flex" role="search">
-                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success" type="submit">Search</button>
-            </div>
+        <div>
+          <ul class="d-flex bg-white" type="none">
+            <li class=" mx-2">
+              <button type="button" class="btn fs-5">Shopping</button>
+            </li>
+            <li class="fs-5 mx-2">
+              <button type="button" class="btn fs-5">Category</button>
+            </li>
+          </ul>
+        </div>
 
-            <div class="fs-2 ">
+        <div class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+        </div>
 
-                <button class="bg-body border border-0">
-                    <i class="p-2 bg-body fa-regular fa-user"></i>
-                </button>
+        <div class="fs-2 ">
 
-                <button class="bg-body border border-0">
-                    <i class="p-2 bg-body fa-solid fa-bag-shopping"><sup id="" class="fs-5 m-1">0</sup></i>
-                </button>
+            <button class="bg-body border border-0">
+                <i class="p-2 bg-body fa-regular fa-user"></i>
+            </button>
 
-                <button id="bf-add" class="bg-body border border-0 primary">
-                    <i class="p-2 bg-body fa-regular fa-heart"><sup id="" class="fs-5 m-1">0</sup></i>
-                </button>
+            <button class="bg-body border border-0">
+                <i class="p-2 bg-body fa-solid fa-bag-shopping"><sup id="" class="fs-5 m-1">0</sup></i>
+            </button>
 
-                <!-- <button id="af-add" class="bg-body border border-0 d-none">
-                    <i class="p-2 bg-body fa-solid fa-heart"></i>
-                </button> -->
-            </div>
-            
-        </nav>
+            <button id="bf-add" class="bg-body border border-0 primary">
+                <i class="p-2 bg-body fa-regular fa-heart"><sup id="" class="fs-5 m-1">0</sup></i>
+            </button>
+
+            <!-- <button id="af-add" class="bg-body border border-0 d-none">
+                <i class="p-2 bg-body fa-solid fa-heart"></i>
+            </button> -->
+        </div>
+
+        <!-- login logout -->
+        <div>
+          <ul class="d-flex fs-5" type="none">
+            <li class="mx-2">
+              <a class="text-decoration-none text-dark" href="#">Log In</a>
+            </li>
+            <li class="mx-2">
+              <a class="text-decoration-none text-dark" href="#">Log out</a>
+            </li>
+          </ul>
+        </div>
+        
+      </nav>
 
         <div id="carouselExampleCaptions" class="carousel slide transition"  data-bs-ride="carousel"  data-bs-interval="2000">
             <div class="carousel-indicators">
